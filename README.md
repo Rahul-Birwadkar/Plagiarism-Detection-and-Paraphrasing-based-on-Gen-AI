@@ -1,4 +1,3 @@
-# Plagiarism-Detection-and-Paraphrasing-based-on-Gen-AI
 # 🔍 Plagiarism Detection and Paraphrasing Based on Generative AI
 
 **Author**: Rahul Birwadkar  
@@ -14,12 +13,23 @@ This repository contains the complete implementation, thesis documentation, and 
 
 ## 🎯 Objectives of the Thesis
 
-1. **Develop a semantic plagiarism detection system** using transformer-based models (e.g., MiniLM, SBERT).
+1. **Develop a semantic and syntactic plagiarism detection system** using transformer-based models (e.g., MiniLM, SBERT).
 2. **Build a paraphrase generation module** using both pre-trained and fine-tuned generative models (e.g., BART, DeepSeek).
 3. **Compare and evaluate multiple approaches** for both detection and paraphrasing based on accuracy, similarity scores, and qualitative output.
 4. **Demonstrate real-world applicability** by incorporating web scraping and similarity matching across online sources.
 
 ---
+## 📊 Datasets
+PAN 2011: Used for supervised plagiarism detection.
+PAWS-Wiki: Used for paraphrase model fine-tuning.
+Custom Sentences: Manually created for paraphrase evaluation and robustness testing.
+
+## 📌 Highlights
+Fine-tuned transformer models (BART, MiniLM) on domain-specific data.
+Developed hybrid similarity scoring using both lexical and semantic features.
+Implemented real-time web scraping to compare online content against suspect input.
+Designed reusable pipelines for both plagiarism detection and paraphrasing tasks.
+Achieved high accuracy and semantic retention across multiple evaluation thresholds.
 
 ## 💡 Key Skills & Technologies Showcased
 
@@ -34,4 +44,8 @@ This repository contains the complete implementation, thesis documentation, and 
 | **Deployment** | Model saving/loading, Flask-ready architecture |
 | **Data Handling** | PAN 2011 Corpus, PAWS Dataset, Custom sentence sets |
 | **Documentation & Presentation** | Professional thesis writing, PowerPoint defense, academic declaration, bilingual abstract |
+
+---
+
+
 
